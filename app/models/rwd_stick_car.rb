@@ -1,2 +1,0 @@
-class RwdStickCar < ApplicationRecord
-end
