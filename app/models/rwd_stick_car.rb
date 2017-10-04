@@ -1,0 +1,2 @@
+class RwdStickCar < ApplicationRecord
+end
