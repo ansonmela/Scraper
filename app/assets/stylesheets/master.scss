@@ -1,8 +1,54 @@
-h1 {
+@import "bootstrap";
+
+.title-link {
 	text-align: center;
 	font-size: 50px;
+	margin-top: 20px;
 	}
 
-h1:hover {
+.title-link:hover {
 	background-color: blue;
+}
+
+.new-car-link {
+	text-align: center;
+	font-size: 20px;
+}
+
+.listing {
+	font-size: 17px;
+	/*margin-left: 10px;*/
+	text-align: center;
+}
+
+hr {  
+  border: none;
+  height: 10px;
+  background: linear-gradient(-135deg, #fff 5px, transparent 0) 0 5px, linear-gradient(135deg, #fff 5px, #8c8c8c 0) 0 5px;
+  background-color: #fff;
+  background-position: left bottom;
+  background-repeat: repeat-x;
+  background-size: 10px 10px;
+}
+
+.newest_additions {
+	text-align: center;
+}
+
+body {
+	background-color: black;
+	color: white;
+}
+
+.index-page {
+	text-align: center;
+	margin-top: 200px;
+}
+
+.new-car-page-title {
+	margin-left: 10px;
+}
+
+.car-name-input {
+	margin-left: 10px;
 }

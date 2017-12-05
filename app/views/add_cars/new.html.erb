@@ -1,0 +1,9 @@
+<br />
+<h1 class="new-car-page-title">Enter your Vehicle</h1>
+
+&nbsp;<%= simple_form_for @add do |f| %>
+		<div class="car-name-input">
+			<%= f.input :car_name %>
+		</div>
+			&nbsp;&nbsp;<%= f.submit "Add this car", class: 'btn btn-primary' %>
+		<% end %>

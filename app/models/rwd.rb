@@ -1,3 +1,2 @@
 class Rwd < ApplicationRecord
-	
 end
