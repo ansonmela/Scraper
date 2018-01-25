@@ -1,24 +1,4 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Ride-Lists is a data scraper/user-input vehicle index web page that pulls data from craigslist. It specifically targets data located within the parameters of "Manual Cars within 10 miles of zipcode 27163". There is a section where user-input vehicles will show up once entered into the database via the "add car" form created with the simple_form API.
+https://scraper-anson-melakayil.herokuapp.com/
