@@ -21,14 +21,6 @@ ActiveRecord::Schema.define(version: 20171127165439) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "rwd_stick_cars", force: :cascade do |t|
-    t.text     "car"
-    t.string   "price"
-    t.string   "location"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
   create_table "rwds", force: :cascade do |t|
     t.text     "car"
     t.datetime "created_at", null: false
